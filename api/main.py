@@ -17,7 +17,7 @@ from services.embedder import embed_chunks_for_strategy
 from services.retriever import retrieve_top_k
 from services.prompt_builder import build_rag_prompt
 from sentence_transformers import SentenceTransformer
-
+# api call
 app = FastAPI(
     title="Mini Orchestra RAG API",
     description="Chunking → Embedding → Retrieval → RAG",
